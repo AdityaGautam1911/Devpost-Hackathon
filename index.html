@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Plane Customer review</title>
+
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<!--google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<body>
+  <section class="colored-section main_page" id="title">
+    
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Airport Customer review</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/AdityaGautam1911/Devpost-Hackathon">Link to project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_project">About Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeUeBMWkzSGv388LiVlENhul4fEwWwe4ClapXasyj13nv7C2A/viewform?usp=sf_link">Review</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="head-line">
+
+
+      <!-- Title -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-6">
+            <h1 class="welcome-text">WELCOME TO</h1>
+            <h1 class="welcome-text">AIRLINE REVIEW </h1>
+            <h1 class="welcome-text">&</h1>
+            <h1 class="welcome-text">ANALYSIS MODEL</h1>
+          </div>
+          <div class="feature-box col-lg-6">
+            <img class="plane-img" src="images/plane.webp" alt="plane-image">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About project -->
+  <section class="white-section" id="about_project">
+    <h3 class="big-heading">About this project</h3>
+    <br>
+    <p class="data1">This prediction systems describes how and what factors lead to customer satisfaction for an airline</p>
+    <hr class="line">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-6">
+          <h3 class="data2">The following pie chart shows us what percentage of passengers are satisfied and what percentage of passengers are not satisfied acording to the given attributes. </h3>
+        </div>
+        <div class="feature-box col-lg-6">
+          <img class="pie_chart" src="images/piechart.png" alt="pie_chart">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-6">
+          <img class="pie_chart" src="images/satisfied.png" alt="pie_chart">
+        </div>
+        <div class="feature-box col-lg-6">
+          <h3 class="data2">The following histogram shows us the age groups that are satisfied by the airline agency</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-6">
+          <h3 class="data2">The following histogram shows us the age groups that are not satisfied by the airline agency</h3>
+        </div>
+        <div class="feature-box col-lg-6">
+          <img class="pie_chart" src="images/unsatisfied.png" alt="pie_chart">
+        </div>
+      </div>
+    </div>
+
+    <hr class="line">
+    <br>
+    <ul class="list">
+      <li class="data">This is a machine learning classification based model which determines if a customer/passenger is satisfied or not based on the attributes the model user inputs</li>
+      <br>
+      <li class="data">
+        <ul>
+          <li class="data">THE FOLLOWING ARE SOME OF THE ATTRIBUTES THE USER INPUTS:-</li>
+          <li class="data">The actual age of the passengers</li>
+          <li class="data">Purpose of the flight of the passengers (Personal Travel, Business Travel)</li>
+          <li class="data">Satisfaction level of the inflight wifi service (rating from 1-5)</li>
+          <li class="data">Satisfaction level of online booking</li>
+          <li class="data">Satisfaction level of Seat comfort</li>
+        </ul>
+        <br>
+      </li>
+      <li class="data">Data Courtesy:-Kaggle</li>
+      <br>
+    </ul>
+  </section>
+
+
+
+
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">This Model is very accurate and helped us in analysing the customer feedback patterns</h2>
+          <img class="testimonial-image" src="images/infy.jpg" alt="company-pfp1">
+          <em>Tipro,India</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">This system helped out our company a lot and helped us generate greater revenues.</h2>
+          <img class="testimonial-image" src="images/tipro.jpg" alt="company-pfp2">
+          <em>Pinfosys,India</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- Call to Action -->
+  <section class="colored-section" id="cta">
+    <div class="container-fluid1">
+      <h2>About Us</h2>
+      <div class="row">
+        <div class="feature-box col-lg-6">
+          <img class="adi_pic" src="images/adi.jpg" alt="Aditya picture">
+          <h3 class="feature-title">Aditya Gautam.</h3>
+          <p class="description">Hey there I am Aditya.I am a student from VIT,Vellore pursuing Computer Science and
+            Engineering
+          </p>
+          <button class="download-button btn btn-lg btn-light" type="button"><a href="https://www.linkedin.com/in/aditya-gautam-1a93b3217/">Linkedin</a></button>
+      <button class="download-button btn btn-lg brn-dark" type="button"><a href="https://github.com/AdityaGautam1911">Github</a></button>
+        </div>
+        <div class="feature-box col-lg-6">
+          <img class="yash_pic" src="images/yash.jpg" alt="Yash picture">
+          <h3 class="feature-title">Yash Yati Phatak</h3>
+          <p class="description">Hey there I am Yash and I am a student from VIT,Vellore pursuing Computer Science and
+            Engineering</p>
+            <button class="download-button btn btn-lg btn-light" type="button"><a href="https://www.linkedin.com/in/yash-phatak-b82931227/">Linkedin</a></button>
+      <button class="download-button btn btn-lg brn-dark" type="button"><a href="https://github.com/Yash-Phatak">Github</a></button>
+        </div>
+      </div>
+    </div>
+    <h5>© ADG</h5>
+  </section>
+</body>
+
+</html>
